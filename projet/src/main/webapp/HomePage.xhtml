@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <title>Robot Community</title>
+    <h:outputStylesheet library="primefaces" name="themes/bootstrap/theme.css" />
+    <style>
+        body {
+            background-color: #ecf0f5; /* Bleu clair */
+            font-family: 'Arial', sans-serif;
+            color: #333333; /* Gris foncé */
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: #3498db; /* Bleu */
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-buttons {
+            display: flex;
+        }
+
+        .header-buttons .ui-button {
+            margin-left: 10px;
+        }
+
+        #content {
+            margin: 20px;
+            background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-creative-blue-robot-face-smart-technology-background-material-picture-image_980396.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            border-radius: 10px;
+            color: #ffffff; /* Blanc */
+        }
+
+        #logo {
+            max-width: 100px;
+            height: auto;
+        }
+
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .robot-image {
+            max-width: 70px;
+            height: auto;
+            border-radius: 50%;
+        }
+    </style>
+</h:head>
+
+<h:body>
+    <div id="header">
+        <img id="logo" src="data:image/webp;base64,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" alt="Robot Logo" />
+        <div class="header-buttons">
+            <p:commandButton value="Home" action="#{SiteBean.navigateToHome}" styleClass="ui-button-info" />
+            <p:commandButton value="Sign In" action="#{SiteBean.navigateToSignIn}" styleClass="ui-button-info" />
+            <p:commandButton value="Login" action="#{SiteBean.navigateToLogin}" styleClass="ui-button-info" />
+        </div>
+    </div>
+
+    <div id="content">
+        <p>Welcome to Robot Community!</p>
+        <p>Robot Community is a dynamic platform dedicated to the passion for robotics and the connection among creative and curious minds in the field of robotics. Whether you're an enthusiastic hobbyist, an engineering student, a robotics professional, or simply someone interested in the technological future, our community provides a welcoming space for you to share ideas, learn, collaborate, and celebrate the fascinating world of robots. Join Robot Community today and dive into a world where creativity, technology, and community converge. Together, we are building the future of robotics!</p>
+    </div>
+</h:body>
+</html>
