@@ -117,7 +117,8 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 
  • **Eclipse IDE for Entreprise Java and Web Developers**: est un environnement de développement intégré populaire, spécialement conçu pour les développeurs Java et Web. Il offre des fonctionnalités avancées telles que la prise en charge complète de Java EE, des outils de développement Web, et une intégration transparente avec des frameworks tels que Spring et Hibernate. Cette IDE open-source est largement utilisée pour sa polyvalence, son extensibilité via des plugins, et sa robustesse dans la création d'applications Java et Web complexes. Avec une communauté active et un support continu, Eclipse reste un choix de prédilection pour de nombreux développeurs professionnels.
  
-![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/8ad0d0ac-79c9-4bb4-822c-717203f861cd)
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/e1f5f18b-655d-422f-a5b3-bff4692a136b)
+
 
  • **MySQL Workbench** :est un outil de conception visuelle de base de données et d'administration pour MySQL. Il offre une interface conviviale pour modéliser, générer et gérer des bases de données, simplifiant ainsi le processus de développement. Grâce à ses fonctionnalités telles que la migration de données et la gestion des utilisateurs, MySQL Workbench est essentiel pour les développeurs et les administrateurs de bases de données travaillant avec MySQL. Son approche intégrée facilite la création, la maintenance et l'optimisation des bases de données relationnelles.
 
@@ -125,6 +126,7 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 
  • **GitHub**:  est une plateforme de développement collaboratif reposant sur le système de contrôle de version Git. Elle permet aux développeurs de travailler ensemble sur des projets logiciels, de suivre les modifications apportées au code, de gérer les problèmes, et de collaborer efficacement. GitHub offre des fonctionnalités telles que le suivi des problèmes, le déploiement continu, les demandes de tirage, et facilite le partage de code source open-source. Cette plateforme est largement utilisée dans le monde du développement logiciel pour héberger des projets, encourager la collaboration et fournir des outils de gestion de projet efficaces.
 
-![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/996d5100-a3c2-4bc2-81e1-f9dac66cd9ed)
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/c9ff2f7a-f9df-4111-8e0c-a9a204ac9c93)
+
 
 
