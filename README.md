@@ -125,6 +125,6 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 
  • **GitHub**:  est une plateforme de développement collaboratif reposant sur le système de contrôle de version Git. Elle permet aux développeurs de travailler ensemble sur des projets logiciels, de suivre les modifications apportées au code, de gérer les problèmes, et de collaborer efficacement. GitHub offre des fonctionnalités telles que le suivi des problèmes, le déploiement continu, les demandes de tirage, et facilite le partage de code source open-source. Cette plateforme est largement utilisée dans le monde du développement logiciel pour héberger des projets, encourager la collaboration et fournir des outils de gestion de projet efficaces.
 
-![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/6f33bde7-5eff-43cd-96ce-2eb388836d7d)
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/996d5100-a3c2-4bc2-81e1-f9dac66cd9ed)
 
 
