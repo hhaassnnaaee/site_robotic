@@ -112,9 +112,9 @@ La barre de recherche permet à l'utilisateur de chercher un projet spécifique 
 
 
 L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réaliser en choisissant l’option Ajouter un projet et en renseignant par la suite toute sa description détaillée pour le diffuser à la communauté.
+###  <a href="#" style="color: blue;">**II.	Réalisation de l’application web : **</a>
 
-II.	Réalisation de l’application web :
-1.	 Environnement du travail :
+#### 1. Environnement du travail :
 
  	Eclipse IDE for Entreprise Java and Web Developers:  est un environnement de développement intégré populaire, spécialement conçu pour les développeurs Java et Web. Il offre des fonctionnalités avancées telles que la prise en charge complète de Java EE, des outils de développement Web, et une intégration transparente avec des frameworks tels que Spring et Hibernate. Cette IDE open-source est largement utilisée pour sa polyvalence, son extensibilité via des plugins, et sa robustesse dans la création d'applications Java et Web complexes. Avec une communauté active et un support continu, Eclipse reste un choix de prédilection pour de nombreux développeurs professionnels.
  	MySQL Workbench :est un outil de conception visuelle de base de données et d'administration pour MySQL. Il offre une interface conviviale pour modéliser, générer et gérer des bases de données, simplifiant ainsi le processus de développement. Grâce à ses fonctionnalités telles que la migration de données et la gestion des utilisateurs, MySQL Workbench est essentiel pour les développeurs et les administrateurs de bases de données travaillant avec MySQL. Son approche intégrée facilite la création, la maintenance et l'optimisation des bases de données relationnelles
