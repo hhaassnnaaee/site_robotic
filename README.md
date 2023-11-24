@@ -32,10 +32,11 @@ Ce rapport détaillera notre parcours depuis l'idée de l'application jusqu'à s
 
 ###  <a href="#" style="color: blue;">I.Conception de l’application web :</a>
 -  Description de l'application web et ses fonctionnalités :
+  
 L'idée de notre projet est de concevoir une application web nommée "Robot Community" visant à créer un environnement propice pour les amateurs de la robotique. L'objectif principal de l'application est de favoriser l'échange d'informations relatives au domaine de la robotique entre les membres de la communauté.
 La réalisation d'un projet d'une telle envergure nécessite une approche méthodique et structurée. Ainsi, nous avons entamé le processus par une phase d'analyse approfondie, au cours de laquelle nous avons recueilli les besoins spécifiques de nos utilisateurs et identifié les fonctionnalités essentielles pour répondre à leurs attentes. Ces fonctionnalités peuvent être présentées comme suit:
-•	Inscription et Connexion : L'utilisateur peut accéder à l'application web en s'identifiant via son compte. Consultation des Actualités : L'utilisateur peut consulter les projets ajoutés récemment par d'autres utilisateurs.
-•	Consultation des Actualités : L'utilisateur peut consulter les projets ajoutés récemment par d'autres utilisateurs.
+ -- Inscription et Connexion : L'utilisateur peut accéder à l'application web en s'identifiant via son compte. Consultation des Actualités : L'utilisateur peut consulter les projets ajoutés récemment par d'autres utilisateurs.
+ --	Consultation des Actualités : L'utilisateur peut consulter les projets ajoutés récemment par d'autres utilisateurs.
 •	Recherche d'un Projet : L'utilisateur peut chercher un projet qu'il souhaite réaliser, puis accéder à sa description détaillée, visualiser la liste des composants nécessaires, les étapes à suivre, ainsi que les coordonnées du propriétaire du projet.
 •	Ajout d'un Projet : L'utilisateur ayant déjà réalisé un projet peut le partager avec une description détaillée.
 •	Robot Community : L'utilisateur peut interagir avec d'autres utilisateurs en posant des questions ou en répondant à d'autres, en particulier concernant un projet spécifique.
