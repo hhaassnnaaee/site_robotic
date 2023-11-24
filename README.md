@@ -72,11 +72,14 @@ La réalisation d'un projet d'une telle envergure nécessite une approche métho
 
 #### 3.Wireframes du projet :
 •	Interface 1 :
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/a1f85d56-ca68-41be-85ac-caa9fb04e0e2)
+
 
 Il s'agit de la première interface à laquelle un visiteur accède après avoir consulté l'URL de notre site web. Cette page d'accueil comprend une présentation de notre site et de son objectif. De plus, elle permet au visiteur de visualiser les actualités des projets, c'est-à-dire les projets ajoutés récemment. Ensuite, il a la possibilité de se connecter à son compte s'il en possède déjà, sinon il peut créer un nouveau compte pour accéder aux différentes options offertes par notre site web.
 
 •	Interface 2 : 
 
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/f0eb78e0-74fd-4a15-8448-151ca9df73f8)
 
 
 
@@ -84,29 +87,24 @@ Il s'agit de la première interface à laquelle un visiteur accède après avoir
 Une fois notre interface s’affiche, l’utilisateur s’il possède déjà un compte il clique sur log in  sinon, il clique sur Sign in en remplissant bien sur les  différentes cases : Full Name , E-mail et Password .
 
 •	Interface 3 : 
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/56657a28-6789-43df-9e0d-588a95e9078f)
 
 Une fois la connexion est bien réussite, l'utilisateur est redirigé vers la page d'accueil, où elle s'ajoute le menu principal. Il y a également une barre de recherche qui permet à l'utilisateur de chercher un projet .De plus, l'utilisateur peut ajouter un projet qu'il a déjà réalisé et le partager avec les autres membres.
 
 •	Interface 4 :
  
-
-
-
-
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/44c3980b-8512-4344-8a11-d5896ca219b4)
 
 
 
 
 La barre de recherche permet à l'utilisateur de chercher un projet spécifique en tapant des mots-clés. Lorsque l'utilisateur sélectionne un projet, il est redirigé vers une interface où il trouve une description détaillée du projet, un menu pour accéder aux composants nécessaires avec leurs fiches techniques, le logiciel requis, ainsi que les étapes à suivre pour réaliser ce projet. Cette page comprend également une barre de commentaires où les membres peuvent interagir. (voir Interface 5)
 •	Interface 5 :
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/eb77286d-08da-4d3c-ba64-1fd30685fea1)
 
 •	Interface 6 :
 
-
-
-
-
-
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/cf43bc3b-30bf-401d-a218-327903dc28bf)
 
 
 
