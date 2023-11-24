@@ -136,4 +136,17 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/c9ff2f7a-f9df-4111-8e0c-a9a204ac9c93)
 
 
+#### 2. Les différentes pages de notre site web : 
+
+	Page Home : 
+
+	Page de Login : 
+
+	Page de Sign In :
+
+	Page de recherche d’un projet : 
+
+
+ 	Page d’ajout d’un projet : 
+
 
