@@ -25,27 +25,12 @@ Ce rapport détaillera notre parcours depuis l'idée de l'application jusqu'à s
 ### II. Réalisation de l'application web
 
 #### 1. Environnement de travail :
-    
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### I.	Conception de l’application web :
+### <a href="#" style="color: blue;">I.	Conception de l’application web </a>
 1.	Description de l’application web et ces fonctionnalités :
 L'idée de notre projet est de concevoir une application web nommée "Robot Community" visant à créer un environnement propice pour les amateurs de la robotique. L'objectif principal de l'application est de favoriser l'échange d'informations relatives au domaine de la robotique entre les membres de la communauté.
 La réalisation d'un projet d'une telle envergure nécessite une approche méthodique et structurée. Ainsi, nous avons entamé le processus par une phase d'analyse approfondie, au cours de laquelle nous avons recueilli les besoins spécifiques de nos utilisateurs et identifié les fonctionnalités essentielles pour répondre à leurs attentes. Ces fonctionnalités peuvent être présentées comme suit:
