@@ -1,6 +1,6 @@
 # Site Web "Robot Community"
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/eb167a64-9f5f-4be6-b6da-7974bc3e0814)
-Introduction Générale :
+## Introduction Générale :
 Dans un monde où la robotique occupe une place prépondérante, il est essentiel de créer des espaces où les fans et les amateurs peuvent se connecter et partager. C'est pourquoi notre équipe a travaillé sur une nouvelle application web appelée "Robot Community". Elle vise à rassembler une communauté passionnée par la robotique, offrant un endroit où les membres peuvent discuter, collaborer et s'inspirer mutuellement.
 Pour réaliser cette application, nous avons suivi une approche réfléchie, en commençant par comprendre les besoins des futurs utilisateurs. À partir de là, nous avons identifié les fonctionnalités importantes pour rendre l'application conviviale et enrichissante.
 Au cœur de "Robot Community", les utilisateurs peuvent s'inscrire et se connecter facilement pour rejoindre la communauté. Ils peuvent consulter les dernières nouvelles, chercher des projets spécifiques, partager leurs propres projets et interagir avec les autres membres.
