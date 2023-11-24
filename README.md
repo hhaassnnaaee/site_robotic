@@ -99,6 +99,7 @@ Une fois la connexion est bien réussite, l'utilisateur est redirigé vers la pa
 
 
 La barre de recherche permet à l'utilisateur de chercher un projet spécifique en tapant des mots-clés. Lorsque l'utilisateur sélectionne un projet, il est redirigé vers une interface où il trouve une description détaillée du projet, un menu pour accéder aux composants nécessaires avec leurs fiches techniques, le logiciel requis, ainsi que les étapes à suivre pour réaliser ce projet. Cette page comprend également une barre de commentaires où les membres peuvent interagir. (voir Interface 5)
+
 •	Interface 5 :
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/eb77286d-08da-4d3c-ba64-1fd30685fea1)
 
