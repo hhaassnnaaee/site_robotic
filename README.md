@@ -72,7 +72,9 @@ La réalisation d'un projet d'une telle envergure nécessite une approche métho
 
 #### 3.Wireframes du projet :
 •	Interface 1 :
+
 Il s'agit de la première interface à laquelle un visiteur accède après avoir consulté l'URL de notre site web. Cette page d'accueil comprend une présentation de notre site et de son objectif. De plus, elle permet au visiteur de visualiser les actualités des projets, c'est-à-dire les projets ajoutés récemment. Ensuite, il a la possibilité de se connecter à son compte s'il en possède déjà, sinon il peut créer un nouveau compte pour accéder aux différentes options offertes par notre site web.
+
 •	Interface 2 : 
 
 
@@ -80,9 +82,11 @@ Il s'agit de la première interface à laquelle un visiteur accède après avoir
 
 
 Une fois notre interface s’affiche, l’utilisateur s’il possède déjà un compte il clique sur log in  sinon, il clique sur Sign in en remplissant bien sur les  différentes cases : Full Name , E-mail et Password .
+
 •	Interface 3 : 
 
 Une fois la connexion est bien réussite, l'utilisateur est redirigé vers la page d'accueil, où elle s'ajoute le menu principal. Il y a également une barre de recherche qui permet à l'utilisateur de chercher un projet .De plus, l'utilisateur peut ajouter un projet qu'il a déjà réalisé et le partager avec les autres membres.
+
 •	Interface 4 :
  
 
@@ -95,6 +99,7 @@ Une fois la connexion est bien réussite, l'utilisateur est redirigé vers la pa
 
 La barre de recherche permet à l'utilisateur de chercher un projet spécifique en tapant des mots-clés. Lorsque l'utilisateur sélectionne un projet, il est redirigé vers une interface où il trouve une description détaillée du projet, un menu pour accéder aux composants nécessaires avec leurs fiches techniques, le logiciel requis, ainsi que les étapes à suivre pour réaliser ce projet. Cette page comprend également une barre de commentaires où les membres peuvent interagir. (voir Interface 5)
 •	Interface 5 :
+
 •	Interface 6 :
 
 
@@ -105,8 +110,9 @@ La barre de recherche permet à l'utilisateur de chercher un projet spécifique 
 
 
 
-Figure 6: Interface d'ajout d'un projet
+
 L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réaliser en choisissant l’option Ajouter un projet et en renseignant par la suite toute sa description détaillée pour le diffuser à la communauté.
+
 II.	Réalisation de l’application web :
 1.	 Environnement du travail :
 
