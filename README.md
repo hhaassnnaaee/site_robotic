@@ -14,13 +14,21 @@ Ce rapport détaillera notre parcours depuis l'idée de l'application jusqu'à s
 
 
 
-## Table de matières :
-I. Conception de l’application web :
-   1.Description de l’application web et ces fonctionnalités :
-   2. Diagramme de cas d’utilisation :
-   3.  Wireframes du projet :
-II. Réalisation de l’application web :
-    1.Environnement du travail:
+# I. Conception de l'application web
+
+## 1. Description de l'application web et ses fonctionnalités :
+    - Explication détaillée de l'application et de ses caractéristiques.
+
+## 2. Diagramme de cas d'utilisation :
+    - Incluez une image ou une description textuelle du diagramme.
+
+## 3. Wireframes du projet :
+    - Ajoutez des liens vers les wireframes ou intégrez des images directement.
+
+# II. Réalisation de l'application web
+
+## 1. Environnement de travail :
+    - Description de l'éditeur utilisé, des langages de programmation, etc.
 
 
 
