@@ -57,7 +57,7 @@ La réalisation d'un projet d'une telle envergure nécessite une approche métho
 
 
 
-#### 2.	Diagramme de cas d’utilisation :
+ #### 2. Diagramme de cas d’utilisation :
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/4ad568ec-0163-49a9-8a89-acf24adbfe69)
 
 
@@ -70,7 +70,7 @@ La réalisation d'un projet d'une telle envergure nécessite une approche métho
 
 
 
-3.	Wireframes du projet :
+#### 3.Wireframes du projet :
 •	Interface 1 :
 Il s'agit de la première interface à laquelle un visiteur accède après avoir consulté l'URL de notre site web. Cette page d'accueil comprend une présentation de notre site et de son objectif. De plus, elle permet au visiteur de visualiser les actualités des projets, c'est-à-dire les projets ajoutés récemment. Ensuite, il a la possibilité de se connecter à son compte s'il en possède déjà, sinon il peut créer un nouveau compte pour accéder aux différentes options offertes par notre site web.
 •	Interface 2 : 
