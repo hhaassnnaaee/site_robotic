@@ -43,10 +43,17 @@ La réalisation d'un projet d'une telle envergure nécessite une approche métho
       •  Inscription et Connexion : L'utilisateur peut accéder à l'application web en s'identifiant via 
          son compte. Consultation des Actualités : L'utilisateur peut consulter les projets ajoutés 
          récemment par d'autres utilisateurs.
- --	Consultation des Actualités : L'utilisateur peut consulter les projets ajoutés récemment par d'autres utilisateurs.
-•	Recherche d'un Projet : L'utilisateur peut chercher un projet qu'il souhaite réaliser, puis accéder à sa description détaillée, visualiser la liste des composants nécessaires, les étapes à suivre, ainsi que les coordonnées du propriétaire du projet.
-•	Ajout d'un Projet : L'utilisateur ayant déjà réalisé un projet peut le partager avec une description détaillée.
-•	Robot Community : L'utilisateur peut interagir avec d'autres utilisateurs en posant des questions ou en répondant à d'autres, en particulier concernant un projet spécifique.
+ 	  •  Consultation des Actualités : L'utilisateur peut consulter les projets ajoutés récemment par 
+         d'autres utilisateurs.
+	  •  Recherche d'un Projet : L'utilisateur peut chercher un projet qu'il souhaite réaliser, puis 
+         accéder à sa description détaillée, visualiser la liste des composants nécessaires, les étapes à 
+         suivre, ainsi que les coordonnées du propriétaire du projet.
+      •	 Ajout d'un Projet : L'utilisateur ayant déjà réalisé un projet peut le partager avec une 
+         description détaillée.
+	  •  Robot Community : L'utilisateur peut interagir avec d'autres utilisateurs en posant des questions 
+         ou en répondant à d'autres, en particulier concernant un projet spécifique.
+
+
 
 2.	Diagramme de cas d’utilisation :
 
