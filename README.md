@@ -172,7 +172,11 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 	Page de recherche d’un projet : 
 
 
+
+
  	Page d’ajout d’un projet : 
+
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/5ca7db2b-4fcc-46f2-b993-003875cb798e)
 
 
 
