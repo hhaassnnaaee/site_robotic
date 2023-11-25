@@ -148,6 +148,11 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/c9ff2f7a-f9df-4111-8e0c-a9a204ac9c93)
 
+• **Apache Tomcat:**:  est un serveur web et un conteneur de servlets open-source, développé par la Fondation Apache. Il permet l'exécution de servlets Java et de pages JavaServer Faces (JSF) pour le déploiement d'applications web Java. Tomcat est largement utilisé pour héberger des applications web dynamiques grâce à son architecture légère et à sa gestion efficace des servlets et des JSP (JavaServer Pages).
+
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/d713eb3a-a257-4573-9fd0-ef1155d003a4)
+
+
 
 #### 2. Les différentes pages de notre site web : 
 
