@@ -2,6 +2,15 @@
 # <a href="#" style="color: blue;">Site Web "Robot Community"</a>
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/374ec678-3c01-4571-9203-847c3dc04ade)
 
+
+
+Réalisé par : 
+      	EL BOURIMI Ibtissam
+      	BOUKRIM Manal
+      	EL MOUSSAOUI Hasnae
+      	Ait BenMbarek Salma
+
+
 ## Introduction Générale :
 Dans un monde où la robotique occupe une place prépondérante, il est essentiel de créer des espaces où les fans et les amateurs peuvent se connecter et partager. C'est pourquoi notre équipe a travaillé sur une nouvelle application web appelée "Robot Community". Elle vise à rassembler une communauté passionnée par la robotique, offrant un endroit où les membres peuvent discuter, collaborer et s'inspirer mutuellement.
 Pour réaliser cette application, nous avons suivi une approche réfléchie, en commençant par comprendre les besoins des futurs utilisateurs. À partir de là, nous avons identifié les fonctionnalités importantes pour rendre l'application conviviale et enrichissante.
