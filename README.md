@@ -161,7 +161,13 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 
 	Page de Login : 
 
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/9d563302-3445-40b6-8734-c9e24f68c4de)
+
+
 	Page de Sign In :
+
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/f5c643a1-765e-4d77-bdd1-893bbe7486e4)
+
 
 	Page de recherche d’un projet : 
 
