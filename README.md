@@ -139,6 +139,8 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 
  Cela est fait à l'aide de l'outil Jira Software ,
 
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/5ba06a7f-d05a-49e2-9e6e-3ec48bf87c06)
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/10e35f5f-8779-43de-bb89-55b9f055b02a)
 
 
 
