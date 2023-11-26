@@ -157,7 +157,7 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 
 #### 2. Les différentes pages de notre site web : 
 
-	Page Home : 
+     🏠 Page Home : 
 
 	Page de Login : 
 
