@@ -236,6 +236,9 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 
 
 
+https://github.com/hhaassnnaaee/site_robotic/assets/119757481/a4f3c063-6c20-4985-a16d-922f72f6ad76
+
+
 ## Conclusion Générale :
 
 En conclusion, le parcours de création de l'application web "Robot Community" a été marqué par une vision partagée de créer un espace d'échange dynamique pour les passionnés de robotique. À travers une analyse approfondie des besoins des utilisateurs, nous avons identifié et implémenté des fonctionnalités clés visant à rendre l'expérience utilisateur aussi enrichissante que possible.
