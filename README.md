@@ -133,20 +133,15 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 
 
 
-#### 4.Product backlog :
+#### 4.Sprint :
 
  Nous avons choisi d’étudier ce projet à l’aide de la méthode Agile (Scrum), car c’est une approche itérative et incrémentale de gestion de projet qui mise sur la collaboration et la flexibilité plutôt que sur une planification rigide et linéaire. Elle se base sur des valeurs telles que la satisfaction du client, l'adaptation au changement, le travail en équipe et la livraison continue de produits fonctionnels
 
  Cela est fait à l'aide de l'outil Jira Software ,
 
-![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/5ba06a7f-d05a-49e2-9e6e-3ec48bf87c06)
-![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/10e35f5f-8779-43de-bb89-55b9f055b02a)
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/d1231928-9efc-4cdf-9165-50120935e8c5)
 
 
-
-
- 
-#### 5.Sprint :
 --->Sprint 1: 
 
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/18db5974-d90a-4150-a248-926c5b99e53f)
