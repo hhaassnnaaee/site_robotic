@@ -169,13 +169,20 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/f5c643a1-765e-4d77-bdd1-893bbe7486e4)
 
 
+       Redirection vers la page du home apres l'authentification  : 
+
+
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/e7082a14-2ab4-4150-87bb-3e5d1ee3dc44)
+
+
+
 	Page de recherche d’un projet : 
 
 
 
 
- 	Page d’ajout d’un projet : 
-
+	Page d’ajout d’un projet : 
+  
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/5ca7db2b-4fcc-46f2-b993-003875cb798e)
 
 
