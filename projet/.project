@@ -46,4 +46,10 @@
 		<nature>org.jboss.tools.jst.web.kb.kbnature</nature>
 		<nature>org.jboss.tools.cdi.core.cdinature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>ressources</name>
+			<value>file:/C:/Users/ELITE/eclipse-workspace/JSFjack/src/main/webapp/ressources</value>
+		</variable>
+	</variableList>
 </projectDescription>

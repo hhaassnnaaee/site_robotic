@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:faces="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+      xmlns:fn="http://xmlns.jcp.org/jsp/jstl/functions"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+<link rel="stylesheet" type="text/css" href="authentification.css" />
+</h:head>
+
+<h:body>
+    <div class="centered-form">
+        <div class="form-container">
+            <h:form>
+                <div class="form-element">
+                    <span class="ui-float-label">
+                        <p:inputText id="floatusername" value="#{bonjourCDI2.login}" />
+                        <p:outputLabel for="floatusername" value="Username" />
+                    </span>
+                </div>
+
+                <div class="form-element">
+                    <span class="ui-float-label">
+                        <h:inputSecret id="floatpassword" value="#{bonjourCDI2.pwd}"/>
+                      
+                        <p:outputLabel for="floatpassword" value="Password" />
+                    </span>
+                </div>
+                
+                <div class="form-element">
+                    <p:commandButton styleClass="p-commandButton" value="Log in" action="#{bonjourCDI2.authentifier(bonjourCDI2.login, bonjourCDI2.pwd)}" />
+                </div>
+            </h:form>
+        </div>
+    </div>
+</h:body>
+</html>

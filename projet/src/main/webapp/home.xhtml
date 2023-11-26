@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
 <html
  xmlns:faces="jakarta.faces"
@@ -10,14 +11,69 @@
           xmlns:p="http://primefaces.org/ui"
   	 > 
 
-<h:head></h:head> 
+<h:head>
+<title>Robot community</title>
+<link rel="stylesheet" type="text/css" href="home.css" />
+</h:head>
 
 <h:body>
-welcome please sign in or log in
-<p:button value="log in" outcome="login.xhtml" />
-<p:button value="sign in" outcome="signin.xhtml" />
+<div class="header">
+<div class="left">
+<h:graphicImage class="logo" name="logopng.png"> </h:graphicImage>
+</div>
+<div class="right">
+<p:button  style="margin-right:15px;" value="log in" outcome="login.xhtml"/>
+<p:button value="sign in" outcome="signin.xhtml"/>
+</div>
+</div>
+<div class="main">
+<div class="description">
+<p class="title"> Welcome to Robot Community!</p>
+<p style="font-size:20px; "> Robot Community is a dynamic platform dedicated to the passion for robotics and the connection among creative and curious minds in the field of robotics. Whether you're an enthusiastic hobbyist, an engineering student, a robotics professional,or simply someone interested in the technological future, our community provides a welcoming space for you to share ideas, learn, collaborate, and celebrate the fascinating world of robots .</p>
+<p style=" font-size:20px; font-color: rgb(64, 103, 148);"> Join Robot Community today and dive into a world where creativity, technology, and community converge. Together, we are building the future of robotics!</p>
+</div>
+<div>
+<h:graphicImage style="height:300px; margin-right:50px " class="robot" name="Robot.jpeg"> </h:graphicImage>
+</div>
+</div>
 
+<div class="update"> Updates </div>
+<div class="actualité">
+<div class="unité">
+<div>
+<h:graphicImage style=" height:200px;" class="img" name="Actualité1 (1).png"> </h:graphicImage>
+</div>
+<div class="desc">The Programmable Robotic Arm project aims to design, build, and program a versatile robotic arm capable of performing various manipulation tasks. This arm will be equipped with motors and sensors to ensure precise and responsive movements, and it will be controlled using a user-friendly interface.</div>
+</div>
+<div class="unité">
+<div>
+<h:graphicImage style=" height:200px;" class="img" name="suiveur_de_ligne.png"> </h:graphicImage>
+</div>
+<div class="desc">The Line Following Robot project aims to design, build, and program a robot capable of following a line traced on the ground. The robot will use line sensors to detect contrast between the line and the surface, thereby adjusting its trajectory to remain on the predetermined path.</div>
+</div>
+<div class="unité">
+<div>
+<h:graphicImage style=" height:200px; " class="img" name="Drone.jpg"> </h:graphicImage>
+</div>
+<div class="desc"> The Design and Assembly of a Multifunctional Drone project aims to create a versatile drone capable of performing various missions, such as surveillance, aerial mapping, photography, and other specialized applications. This drone will be designed considering flight stability, battery autonomy, video transmission quality, and remote control features.</div>
+</div>
+</div>
+<div  class="bottom-bar"> 
+		<div> 
+		
+		
+		 <div style="font-size:20px; margin-left:60px;">  <strong> <u>Contact us</u> </strong>
+		 
+		 <div style="margin-top:20px;  margin-left:20px;" > 
+		 <i class="pi pi-envelope"></i> 
+		  <i class="pi pi-linkedin"></i> 
+		  <i class="pi pi-github"></i></div>
+		 
+            
+		 </div>
+		<div style="margin-top:45px; " > © ROBOT COMMUNITY-2023 INPT </div>
+		
+    </div>
+</div>
 </h:body>
-
-
 </html>

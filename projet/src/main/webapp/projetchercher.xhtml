@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html
+ xmlns:faces="jakarta.faces"
+        xmlns:ui="jakarta.faces.facelets"
+        xmlns:f="jakarta.faces.core"
+        xmlns:h="jakarta.faces.html"
+        xmlns:c="jakarta.tags.core"
+        xmlns:fn="jakarta.tags.functions"
+        xmlns:p="http://primefaces.org/ui"
+  	 > 
+
+<h:head>
+    <title>Nom de projet</title>
+    <style>
+    
+    .header{
+        display: flex;
+        z-index:1000;
+        flex-direction: row;
+        height: 60px;
+        justify-content: space-between;
+        position: fixed;
+        background-color: white;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        border-bottom-width: 1px;
+        border-bottom-color: rgb(199, 186, 186);
+        border-bottom-style:solid ;
+    }
+    
+    .center{
+    margin-top:8px;
+    }
+    
+    .menu ,.bar {
+   
+    display:flex;
+    flex-direction:row;
+    height: 56px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    margin-right: 12px;
+   
+    
+     }
+     .bar:hover, .bar:active{ 
+     border-bottom-width: 2px;
+     border-bottom-color: rgb(199, 186, 186);
+     border-bottom-style: solid ;
+     border-color:blue;
+     cursor:pointer;
+     
+     
+     }
+     .text{
+     background-color:white;
+     color:rgb(92, 90, 90);
+     padding-top:16px;
+     padding-bottom:12px;
+     padding-right:20px;
+     padding-left:6px;
+     border:none;
+     cursor:pointer;
+     font-family:Arial;
+     font-size:16px;
+     
+     }
+     .centre{
+     margin-top:16px;
+     }
+     
+     
+     
+     .search-bar{
+    height: 38px;
+    flex: 1;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 		6px;
+    box-shadow: 0px 1px 3px 0,05;
+    width: 300px;
+    margin-right:6px;
+     
+     }
+     
+     
+     
+     .logo{
+     height:55px;
+     }
+     
+     .bar-projet{
+    
+     display:flex;
+     flex-direction: column;
+     margin-top:80px;
+    
+     background-color:white;
+     border-color:rgb(255, 255, 255);
+     border-width:1px;
+     border-style:solid;
+     border-radius:3px;
+     width:1230px;
+     margin-left:40px;
+    
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     
+     
+     
+     
+     }
+      .bar-projet div {
+      margin-top:15px;
+      margin-left:10px;
+      margin-right:10px;
+      margin-bottom:5px;
+     
+      
+      }
+      
+      .bar-projet u{
+      font-size:20px;
+      
+      }
+      body{
+      background-color:rgb(247, 239, 239);
+      
+      }
+      .titre{ 
+      margin-left:550px; 
+      color:rgb(63, 118, 182);
+      font-size:30px;
+      text-decoration: underline;
+     
+    
+      
+      
+      }
+      
+      
+	.bottom-bar{  
+	
+		background-color:rgb(3, 69, 145);
+		display: flex;
+        flex-direction: column;
+        height: 150px;
+      
+        align-items: center;
+        justify-content: space-between;
+        border-top-width: 1px;
+        border-top-color: rgb(0, 0, 128);;
+        border-top-style:solid ;
+	    margin-top: 200px;
+	    
+	 
+	
+	
+}
+     
+     .bottom-bar div{  
+     color:white; 
+     font-size:15px;
+    
+     }
+      
+      
+     
+     
+    
+    </style>
+   
+ </h:head>  
+
+<h:body>
+
+<div class="header">
+<div class="left">
+<h:graphicImage class="logo" name="logopng.png"> </h:graphicImage>
+</div>
+<div class="menu">
+<div class="bar">
+<div>
+<i class="pi pi-home"> </i>
+</div>
+<a href="home1.xhtml">
+<h:commandButton class="text" value="Home"/>
+</a>
+</div>
+<div class="bar">
+<div>
+<i class="pi pi-plus"> </i>
+</div>
+<a href="ajoutProjet.xhtml">
+<h:commandButton class="text" value="Add project"/>
+</a>
+</div>
+</div>
+<div class="center">
+<h:form>
+<h:inputText class="search-bar" value="#{bonjourCDI2.projectName}" placeholder="Search"/>
+ <p:commandButton styleClass="p-commandButton" value="search" action="#{bonjourCDI2.chercher(bonjourCDI2.projectName)}" />
+
+
+</h:form>
+</div>
+<a href="home.xhtml">
+<p:commandButton type="button" value="Log out" styleClass="ui-button-flat ui-button-plain"/>
+</a>
+<div class="right">
+<p:commandButton type="button" icon="pi pi-user" styleClass="rounded-button ui-button-info"/>
+<div>#{bonjourCDI2.login}</div>
+</div>
+</div>
+
+<div class="bar-projet">
+
+		<div class="titre"> <strong> #{bonjourCDI2.projectName} </strong> </div>
+		<div class="description-projet">
+		<strong> <u> Project description:</u></strong>
+		This robotic project that involves creating a small robot capable of autonomously following a predefined path or line on the ground. The robot is equipped with sensors, typically infrared sensors, that can detect the contrast between the path and its surroundings. The basic idea is to program the robot to make decisions based on the sensor input, allowing it to stay on the line and navigate its way along a given route.
+
+The sensors continuously provide feedback to the robot's control system, which processes this information to determine the robot's position relative to the line. Based on this feedback, the control system adjusts the motor speeds or steering mechanisms to keep the robot aligned with the path. Essentially, the robot "follows" the line by making real-time decisions to stay on course.
+
+This project is often used in educational settings to teach students about robotics, programming, and sensor integration. It combines elements of mechanical design, electronics, and programming to create a functional and engaging robotic system.
+		 </div>
+		<div class="tab-composant">
+
+    
+   
+		
+		
+		
+		
+		<strong> <u> component:</u></strong>
+		<div>-- <strong>Chassis:</strong> The frame or body of the robot where all components are mounted.</div> 
+		<div>--<strong>Motors:</strong> DC motors to drive the wheels of the robot.</div> 
+		<div>-- <strong>Wheels:</strong> Wheels for the robot to move along the surface.</div> 
+		<div>--<strong> Motor Driver:</strong> A motor driver circuit or module to control the speed and direction of the motors.</div> 
+		<div>--<strong> Infrared (IR) Sensors:</strong> Line follower robots typically use IR sensors to detect the line on the ground. They consist of IR transmitter and receiver pairs.</div> 
+		<div>--<strong> Microcontroller:</strong> A microcontroller, such as Arduino, Raspberry Pi, or another suitable controller, to process sensor data and control the motors.</div> 
+		<div>--<strong> Voltage Regulator:</strong> A voltage regulator to ensure a stable power supply to the components.</div>
+		<div>--<strong>Wires and Connectors:</strong> To connect various components on the robot.</div>
+		<div>--<strong> Chassis Wheels Encoder (optional):</strong> Encoders on the wheels to measure the distance traveled or for precise control.</div>
+		<div>--<strong>Line Follower Algorithm/Code:
+		</strong> The program or code that instructs the robot on how to interpret sensor data and make decisions to follow the line.</div>
+		<div>--<strong> Motor Driver:</strong>Body Materials (optional): Additional materials for the robot body, such as acrylic sheets or 3D printed parts.</div> 
+		            
+		            </div>
+											
+											
+		<div class="etape"> <strong> <u> Project realisation step by step:</u></strong>
+		<div>--  <strong>Define the Project Scope:</strong>
+               Clearly outline the goals and requirements of your line follower robot. Determine the type of line it will follow and any additional features you want to incorporate.</div> 
+		<div>--  <strong>Gather Components:</strong>
+Acquire all the necessary components listed earlier, ensuring compatibility and suitability for your project.</div> 
+		<div>-- <strong>Design the Chassis:</strong>
+Design or select a chassis that accommodates the components and fits the project requirements. Consider factors like size, weight, and stability.</div> 
+		<div>--  <strong>Assemble the Chassis:</strong>
+Mount the motors, wheels, and any other mechanical components on the chassis. Ensure the robot is well-balanced and can move freely.</div> 
+		<div>-- <strong>Connect the Motors:</strong>
+Connect the DC motors to the motor driver, and then connect the motor driver to the microcontroller. Ensure proper wiring and polarity.</div> 
+		<div>-- <strong>Define the Project Scope:</strong>
+Mount the IR sensors on the bottom of the robot, facing the ground. Position them to detect the line. Connect the sensor outputs to the microcontroller.</div> 
+		<div>-- <strong>Power Supply:</strong>
+Connect the power supply (batteries) to the robot, ensuring the voltage levels are appropriate for all components. Consider using a voltage regulator if needed.</div> 
+		<div>-- <strong>Programming:</strong>
+Write the code for the microcontroller. Implement a line-following algorithm that interprets sensor data and adjusts the motor speeds accordingly. Test the code incrementally.</div> 
+		<div>-- <strong>Calibration:</strong>
+Calibrate the IR sensors and the algorithm to ensure the robot follows the line accurately. Adjust thresholds and parameters as needed.</div> 
+		<div>-- <strong>Test and Debug:</strong>
+Conduct initial tests to check the robot's performance. Debug and fine-tune the code and sensor calibration as necessary.</div> 
+		<div>-- <strong>Refinement:</strong> 
+Make any necessary adjustments to improve the robot's performance. This may involve tweaking the code, refining the design, or enhancing sensor placement. .</div> 
+		
+		
+		
+		 </div>
+		 
+		 <div>
+		 <a href="https://www.youtube.com/watch?v=HUtyW-4ySvM"> Here you will find tutorials to better understand the process of implementing this project </a>
+		 </div>
+
+
+
+</div>
+
+
+
+ <div  class="bottom-bar"> 
+		<div> 
+		
+		
+		 <div style="font-size:20px; margin-left:60px;">  <strong> <u>Contact us</u> </strong>
+		 
+		 <div style="margin-top:20px;  margin-left:20px;" > 
+		 <i class="pi pi-envelope"></i> 
+		  <i class="pi pi-linkedin"></i> 
+		  <i class="pi pi-github"></i></div>
+		 
+            
+		 </div>
+		<div style="margin-top:45px; " > © ROBOT COMMUNITY-2023 INPT </div>
+		
+    </div>
+</div>
+
+</h:body>
+</html>

@@ -1,0 +1,134 @@
+
+<html xmlns:faces="jakarta.faces" xmlns:ui="jakarta.faces.facelets" xmlns:f="jakarta.faces.core" xmlns:h="jakarta.faces.html" xmlns:c="jakarta.tags.core" xmlns:fn="jakarta.tags.functions" xmlns:p="http://primefaces.org/ui">
+<h:head>
+<title>Home</title>
+<style> .header{ display: flex; z-index:1000; flex-direction: row; height: 60px; justify-content: space-between; position: fixed; background-color: white; top: 0px; left: 0px; right: 0px; border-bottom-width: 1px; border-bottom-color: rgb(199, 186, 186); border-bottom-style:solid ; }
+ .center{ margin-top:8px; }
+  .menu ,.bar { display:flex; flex-direction:row; height: 56px; justify-content: space-between; background-color: white; align-items: center; margin-right: 12px; } 
+  .bar:hover, .bar:active{ border-bottom-width: 2px; border-bottom-color: rgb(199, 186, 186); border-bottom-style: solid ; border-color:blue; cursor:pointer; } 
+  .text{ background-color:white; color:rgb(92, 90, 90); padding-top:16px; padding-bottom:12px; padding-right:20px; padding-left:6px; border:none; cursor:pointer; font-family:Arial; font-size:16px; }
+   .centre{ margin-top:16px; } 
+   .search-bar{ height: 38px; flex: 1; font-size: 16px; border-width: 1px; border-style: solid; border-color: rgb(192,192,192); border-radius: 6px; box-shadow: 0px 1px 3px 0,05; width: 300px; margin-right:6px; }
+    .logo{ height:55px; } 
+    .main{ display:grid; grid-template-columns:2fr 1fr; column-gap: 16px; left:5px; right: 5px; background-color:white; margin-top:90px; } 
+    .unité{ display: flex; flex-direction: column; align-items: center; border-width: 1px; }
+     .actualité{ display:grid; grid-template-columns: 1fr 1fr 1fr; position:absolute; top:500px; } 
+    .bottom-bar{  
+	
+		background-color:rgb(3, 69, 145);
+		display: flex;
+        flex-direction: column;
+        height: 150px;
+      
+        align-items: center;
+        justify-content: space-between;
+        border-top-width: 1px;
+        border-top-color: rgb(0, 0, 128);;
+        border-top-style:solid ;
+	    margin-top: 400px;
+	    
+	 
+	
+	
+}
+     
+     .bottom-bar div{  
+     color:white; 
+     font-size:15px;
+    
+     }
+     .title{ font-size:40px; color:rgb(24, 123, 236); margin-right:20px; margin-left:20px; } .desc{ border-width: 2px; border-color: rgb(199, 186, 186); border-style: solid ; border-color:blue; margin-right:5px; padding:5px; padding-top:7px; } 
+      .description{ margin-left:10px; }   
+      .update{ color:rgb(58, 60, 206) ; font-size:30px;}
+      </style>
+</h:head>
+<h:body>
+<div class="header">
+<div class="left">
+<h:graphicImage class="logo" name="logopng.png"> </h:graphicImage>
+</div>
+<div class="menu">
+<div class="bar">
+<div>
+<i class="pi pi-home"> </i>
+</div>
+<a href="home1.xhtml">
+<h:commandButton class="text" value="Home"/>
+</a>
+</div>
+<div class="bar">
+<div>
+<i class="pi pi-plus"> </i>
+</div>
+<a href="ajoutProjet.xhtml">
+<h:commandButton class="text" value="Add project"/>
+</a>
+</div>
+</div>
+<div class="center">
+<h:form>
+<h:inputText class="search-bar" value="#{bonjourCDI2.projectName}" placeholder="Search"/>
+ <p:commandButton styleClass="p-commandButton" value="search" action="#{bonjourCDI2.chercher(bonjourCDI2.projectName)}" />
+
+
+</h:form>
+</div>
+<a href="home.xhtml">
+<p:commandButton type="button" value="Log out" styleClass="ui-button-flat ui-button-plain"/>
+</a>
+<div class="right">
+<p:commandButton type="button" icon="pi pi-user" styleClass="rounded-button ui-button-info"/>
+<div>#{bonjourCDI2.login}</div>
+</div>
+</div>
+<div class="main">
+<div class="description">
+<p class="title"> Welcome to Robot Community!</p>
+<p style="font-size:20px; "> Robot Community is a dynamic platform dedicated to the passion for robotics and the connection among creative and curious minds in the field of robotics. Whether you're an enthusiastic hobbyist, an engineering student, a robotics professional,or simply someone interested in the technological future, our community provides a welcoming space for you to share ideas, learn, collaborate, and celebrate the fascinating world of robots .</p>
+<p style=" font-size:20px; font-color: rgb(64, 103, 148);"> Join Robot Community today and dive into a world where creativity, technology, and community converge. Together, we are building the future of robotics!</p>
+</div>
+<div>
+<h:graphicImage style="height:300px; margin-right:50px " class="robot" name="Robot.jpeg"> </h:graphicImage>
+</div>
+</div>
+
+<div class="update"> <strong> Updates </strong> </div>
+<div class="actualité">
+<div class="unité">
+<div>
+<h:graphicImage style=" height:200px;" class="img" name="Actualité1 (1).png"> </h:graphicImage>
+</div>
+<div class="desc">Adeept 5-DOF Robot Arm Kit 5Axis R obotic Compatible with Arduino IDE Programmable DIY Coding STEM Robotics Arm with OLED Display Processing Code and PDF Tutorials - Black</div>
+</div>
+<div class="unité">
+<div>
+<h:graphicImage style=" height:200px;" class="img" name="suiveur_de_ligne.png"> </h:graphicImage>
+</div>
+<div class="desc">The Line Following Robot project aims to design, build, and program a robot capable of following a line traced on the ground. The robot will use line sensors to detect contrast between the line and the surface, thereby adjusting its trajectory to remain on the predetermined path.</div>
+</div>
+<div class="unité">
+<div>
+<h:graphicImage style=" height:200px; " class="img" name="Drone.jpg"> </h:graphicImage>
+</div>
+<div class="desc"> The Design and Assembly of a Multifunctional Drone project aims to create a versatile drone capable of performing various missions, such as surveillance, aerial mapping, photography, and other specialized applications. This drone will be designed considering flight stability, battery autonomy, video transmission quality, and remote control features.</div>
+</div>
+</div>
+<div  class="bottom-bar"> 
+		<div> 
+		
+		
+		 <div style="font-size:20px; margin-left:60px;">  <strong> <u>Contact us</u> </strong>
+		 
+		 <div style="margin-top:20px;  margin-left:20px;" > 
+		 <i class="pi pi-envelope"></i> 
+		  <i class="pi pi-linkedin"></i> 
+		  <i class="pi pi-github"></i></div>
+		 
+            
+		 </div>
+		<div style="margin-top:45px; " > © ROBOT COMMUNITY-2023 INPT </div>
+		
+    </div>
+</div>
+</h:body>
+</html>

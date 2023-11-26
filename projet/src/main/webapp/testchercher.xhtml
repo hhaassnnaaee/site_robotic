@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html
+ xmlns:faces="jakarta.faces"
+        xmlns:ui="jakarta.faces.facelets"
+        xmlns:f="jakarta.faces.core"
+        xmlns:h="jakarta.faces.html"
+        xmlns:c="jakarta.tags.core"
+        xmlns:fn="jakarta.tags.functions"
+        
+          xmlns:p="http://primefaces.org/ui">
+        
+  	 
+
+<h:head></h:head> 
+
+<h:body>
+<h:form>
+    <p:inputText value="#{rechercheBean.motCle}" />
+    <p:commandButton value="Chercher" action="#{rechercheBean.rechercher}" />
+
+    <h:outputText value="Résultat de la recherche:" />
+    <h:outputText value="#{rechercheBean.resultatRecherche.nom}" rendered="#{not empty rechercheBean.resultatRecherche}" />
+    <h:outputText value="#{rechercheBean.resultatRecherche.description}" rendered="#{not empty rechercheBean.resultatRecherche}"/>
+</h:form>
+</h:body>
+
+
+</html>

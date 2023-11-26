@@ -11,7 +11,6 @@ import jakarta.enterprise.context.RequestScoped;
 import jakarta.inject.Named;
 
 
-
 @RequestScoped
 @Named
 public class BonjourCDI2 {
@@ -19,7 +18,7 @@ public class BonjourCDI2 {
     private String login;
     private String pwd;
     private String role;
-
+    
     public String getLogin() {
         return login;
     }
@@ -51,6 +50,10 @@ public class BonjourCDI2 {
     public String getMessage() {
         return hello + "  " + new SimpleDateFormat("HH:mm:ss").format(new Date());
     }
+    
+    
+//les fonctions d'utilisateur
+
 
     public String authentifier(String login, String pwd) {
         Connection connection = null;
@@ -70,10 +73,10 @@ public class BonjourCDI2 {
 
                 if (pwd.equals(passwordFromDB)) {
                     System.out.println("Bonjour");
-                    return "Bonjour";
+                    return "home1";
                 } else {
                     System.out.println("Password incorrect");
-                    return "AuthentificationEchouee";
+                    return "incorrectpassword";
                 }
             } else {
                 System.out.println("Utilisateur non trouvé");
@@ -82,7 +85,7 @@ public class BonjourCDI2 {
 
         } catch (SQLException e) {
             e.printStackTrace();
-            return "ErreurBaseDeDonnees";
+            return "AuthentificationEchouee";
         } finally {
             try {
                 if (rs != null) {
@@ -100,6 +103,7 @@ public class BonjourCDI2 {
         }
     }
 
+ 
     @SuppressWarnings("resource")
 	public String signin(String login, String pwd) {
         Connection connection = null;
@@ -116,7 +120,7 @@ public class BonjourCDI2 {
             rs = pst.executeQuery();
 
             if (rs.next()) {
-                System.out.println("Impossible de créer un nouvel utilisateur avec le même nom.");
+                System.out.println("Impossible de créer un nouveau utilisateur avec le même nom.");
                 return "utilisateurexistant";
             } else {
                 
@@ -129,15 +133,15 @@ public class BonjourCDI2 {
 
                 if (rowsAffected > 0) {
                     System.out.println("Nouvel utilisateur ajouté avec succès !");
-                    return "utilisateurbienenregister";
+                    return "home1";
                 } else {
-                    System.out.println("Erreur lors de l'ajout du nouvel utilisateur");
-                    return "utilisateurnonenregister";
+                    System.out.println("Erreur lors de l'ajout du nouveau utilisateur");
+                    return "AuthentificationEchouee";
                 }
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            return "ErreurBaseDeDonnees";
+            return "AuthentificationEchouee";
         } finally {
             try {
                 if (rs != null) {
@@ -154,5 +158,147 @@ public class BonjourCDI2 {
             }
         }
     }
+    
+    
+    
+    
+    
+ //les fonctions de projet 
+    
+    String projectName;
+    String description;
+    private String composants;
+    private String etapes; 
 
-}
+    public String getProjectName() {
+        return projectName;
+    }
+
+    public void setProjectName(String projectName) {
+        this.projectName = projectName;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+    
+    public String getComposants() {
+		return composants;
+	}
+
+	public void setComposants(String composants) {
+		this.composants = composants;
+	}
+
+	public String getEtapes() {
+		return etapes;
+	}
+
+	public void setEtapes(String etapes) {
+		this.etapes = etapes;
+	}
+ 
+    
+
+
+	public void add(String projectName, String description, String composants, String etapes) {
+	    Connection connection = null;
+	    PreparedStatement pst = null;
+	    ResultSet rs = null;
+
+	    try {
+	        connection = DatabaseConnection.getConnection();
+
+	        String sql = "INSERT INTO projetx (nomProjet, description, composants, etapes) VALUES (?, ?, ?, ?)";
+	        pst = connection.prepareStatement(sql);
+	        pst.setString(1, projectName);
+	        pst.setString(2, description);
+	        pst.setString(3, composants);
+	        pst.setString(4, etapes);
+
+	        int rowsAffected = pst.executeUpdate();
+
+	        if (rowsAffected > 0) {
+	            System.out.println("Nouveau projet ajouté avec succès !");
+	        } else {
+	            System.out.println("Erreur lors de l'ajout du nouveau projet");
+	        }
+	    } catch (SQLException e) {
+	        e.printStackTrace();
+	        System.out.println("Erreur lors de l'ajout du nouveau projet");
+	    } finally {
+	        
+	        try {
+	            if (rs != null) {
+	                rs.close();
+	            }
+	            if (pst != null) {
+	                pst.close();
+	            }
+	            if (connection != null) {
+	                connection.close();
+	            }
+	        } catch (SQLException ex) {
+	            ex.printStackTrace();
+	        }
+	    }
+	}
+
+
+    
+    
+    
+    public String chercher(String projectName) {
+        Connection connection = null;
+        PreparedStatement pst = null;
+        ResultSet rs = null;
+
+        try {
+            connection = DatabaseConnection.getConnection();
+
+            String sql = "SELECT nomProjet, description, composants, etapes FROM projetx WHERE nomProjet = ?";
+            pst = connection.prepareStatement(sql);
+            pst.setString(1, projectName); // Utilise le projectName saisi dans la barre de recherche
+            rs = pst.executeQuery();
+
+            if (rs.next()) {
+                projectName = rs.getString("nomProjet");
+                description = rs.getString("description");
+                composants = rs.getString("composants");
+                etapes = rs.getString("etapes");
+
+                return "projetchercher"; // Ou un autre résultat pour la navigation
+            } else {
+                // Aucun projet trouvé
+                // Vous pouvez définir un message pour indiquer à l'utilisateur qu'aucun projet correspondant n'a été trouvé
+                return "AuthentificationEchouee";
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return "AuthentificationEchouee"; // Ou un autre message d'erreur approprié
+        } finally {
+        	 try {
+                 if (rs != null) {
+                     rs.close();
+                 }
+                 if (pst != null) {
+                     pst.close();
+                 }
+                 if (connection != null) {
+                     connection.close();
+                 }
+             } catch (SQLException ex) {
+                 ex.printStackTrace();
+             }
+           
+        }
+    }
+    }
+    
+    
+

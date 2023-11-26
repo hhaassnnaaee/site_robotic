@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <title> Ajouter Projet </title>
+  <link rel="stylesheet" type="text/css" href="addProjet.css" />
+</h:head>
+
+<h:body>
+<div class="header">
+<div class="left">
+<h:graphicImage class="logo" name="logopng.png"> </h:graphicImage>
+</div>
+<div class="menu">
+<div class="bar">
+<div>
+<i class="pi pi-home"> </i>
+</div>
+<a href="home1.xhtml">
+<h:commandButton class="text" value="Home"/>
+</a>
+</div>
+<div class="bar">
+<div>
+<i class="pi pi-plus"> </i>
+</div>
+<a href="ajoutProjet.xhtml">
+<h:commandButton class="text" value="Add project"/>
+</a>
+</div>
+</div>
+<div class="center">
+<h:form>
+<h:inputText class="search-bar" value="#{bonjourCDI2.projectName}" placeholder="Search"/>
+ <p:commandButton styleClass="p-commandButton" value="search" action="#{bonjourCDI2.chercher(bonjourCDI2.projectName)}" />
+
+
+</h:form>
+</div>
+<a href="home.xhtml">
+<p:commandButton type="button" value="Log out" styleClass="ui-button-flat ui-button-plain"/>
+</a>
+<div class="right">
+<p:commandButton type="button" icon="pi pi-user" styleClass="rounded-button ui-button-info"/>
+<div>#{bonjourCDI2.login}</div>
+</div>
+</div>
+
+    <h:form>
+    <div >
+    <h4 class="text1" >Veuillez entrer les informations de votre projet :</h4>
+    <div class="globalDiv">
+	    <div class="partieGauche">
+			<h:panelGrid columns="2">
+			    <h:outputText value="Project Name:" />
+			    <p:inputText value="#{bonjourCDI2.projectName}" required="true" styleClass="input-field" />
+			
+			    <h:outputText value="Description:" />
+			    <p:inputTextarea value="#{bonjourCDI2.description}" required="true" styleClass="input-field" />
+			
+			    <h:outputText value="Components:" />
+			    <p:inputText value="#{bonjourCDI2.composants}" styleClass="input-field" />
+			
+			    <h:outputText value="Stages:" />
+			    <p:inputTextarea value="#{bonjourCDI2.etapes}" styleClass="input-field" />
+			  
+			</h:panelGrid>
+	    </div>
+	        
+	   <div class="partieDroite">
+	       <p:commandButton styleClass="p-commandButton" value="save" action="#{bonjourCDI2.add(bonjourCDI2.projectName, bonjourCDI2.description ,bonjourCDI2.composants, bonjourCDI2.etapes)}"/>
+	   </div>
+    </div>
+    </div>
+    
+
+    </h:form>
+  
+</h:body>
+
+</html>
