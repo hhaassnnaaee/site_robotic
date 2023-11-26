@@ -213,7 +213,8 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
       🌐 Redirection vers la page du home apres l'authentification  : 
 
 
-![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/e7082a14-2ab4-4150-87bb-3e5d1ee3dc44)
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/fcfdd290-66a0-4e83-9701-228557cea9b1)
+
 
 
 
