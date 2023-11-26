@@ -146,7 +146,7 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 #### 5.Sprint :
 --->Sprint 1: 
 
-     ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/18db5974-d90a-4150-a248-926c5b99e53f)
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/18db5974-d90a-4150-a248-926c5b99e53f)
 
 
 ###  <a href="#" style="color: blue;">**II.	Réalisation de l’application web : **</a>
