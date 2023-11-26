@@ -131,6 +131,24 @@ La barre de recherche permet à l'utilisateur de chercher un projet spécifique 
 
 L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réaliser en choisissant l’option Ajouter un projet et en renseignant par la suite toute sa description détaillée pour le diffuser à la communauté.
 
+
+
+#### 4.Product backlog :
+ Nous avons choisi d’étudier ce projet à l’aide de la méthode Agile (Scrum), car c’est une approche itérative et incrémentale de gestion de projet qui mise sur la collaboration et la flexibilité plutôt que sur une planification rigide et linéaire. Elle se base sur des valeurs telles que la satisfaction du client, l'adaptation au changement, le travail en équipe et la livraison continue de produits fonctionnels
+
+ Cela est fait à l'aide de l'outil Jira Software ,
+
+
+
+
+
+ 
+#### 5.Sprint :
+--->Sprint 1: 
+
+     ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/18db5974-d90a-4150-a248-926c5b99e53f)
+
+
 ###  <a href="#" style="color: blue;">**II.	Réalisation de l’application web : **</a>
 
 #### 1. Environnement du travail :
