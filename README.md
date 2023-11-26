@@ -160,7 +160,7 @@ L'utilisateur accède au site pour la première fois et remplit ses informations
 
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/fcfdd290-66a0-4e83-9701-228557cea9b1)
 
-
+Une fois la connexion est bien réussite, l'utilisateur est redirigé vers la page d'accueil, où elle s'ajoute le menu principal. Il y a également une barre de recherche qui permet à l'utilisateur de chercher un projet .De plus, l'utilisateur peut ajouter un projet qu'il a déjà réalisé et le partager avec les autres membres.
 
 
      🔎Page de recherche d’un projet : 
@@ -168,13 +168,13 @@ L'utilisateur accède au site pour la première fois et remplit ses informations
 
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/e40f6035-b4c7-4b61-ab51-7747234e68ad)
 
-
+La barre de recherche permet à l'utilisateur de chercher un projet spécifique en tapant des mots-clés. Lorsque l'utilisateur sélectionne un projet, il est redirigé vers une interface où il trouve une description détaillée du projet, un menu pour accéder aux composants nécessaires avec leurs fiches techniques, le logiciel requis, ainsi que les étapes à suivre pour réaliser ce projet.
 
      ➕Page d’ajout d’un projet : 
   
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/5ca7db2b-4fcc-46f2-b993-003875cb798e)
 
-
+L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réaliser en choisissant l’option Ajouter un projet et en renseignant par la suite toute sa description détaillée pour le diffuser à la communauté.
 
 #### 3. Démo vidéo de l'application: 
 
