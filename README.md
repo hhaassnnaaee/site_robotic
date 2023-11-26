@@ -147,11 +147,13 @@ Il s'agit de la première interface à laquelle un visiteur accède après avoir
 
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/9d563302-3445-40b6-8734-c9e24f68c4de)
 
+Pour cette interface, l'utilisateur doit déjà posséder un compte sur notre site et s'authentifier afin d'explorer les autres options du site (rechercher et/ou ajouter un projet).
 
     👩‍💼 Page de Sign In :
 
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/f5c643a1-765e-4d77-bdd1-893bbe7486e4)
 
+L'utilisateur accède au site pour la première fois et remplit ses informations afin de créer un compte sur notre site web.
 
       🌐 Redirection vers la page du home apres l'authentification  : 
 
