@@ -197,6 +197,9 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 
      🏠 Page Home : 
 
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/45838444-2d28-439d-8d46-a43de8ca3116)
+
+
      🔓   Page de Login : 
 
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/9d563302-3445-40b6-8734-c9e24f68c4de)
