@@ -134,6 +134,7 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 
 
 #### 4.Product backlog :
+
  Nous avons choisi d’étudier ce projet à l’aide de la méthode Agile (Scrum), car c’est une approche itérative et incrémentale de gestion de projet qui mise sur la collaboration et la flexibilité plutôt que sur une planification rigide et linéaire. Elle se base sur des valeurs telles que la satisfaction du client, l'adaptation au changement, le travail en équipe et la livraison continue de produits fonctionnels
 
  Cela est fait à l'aide de l'outil Jira Software ,
@@ -147,6 +148,28 @@ L’utilisateur a la possibilité d’ajouter un projet qu’il a déjà réalis
 --->Sprint 1: 
 
 ![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/18db5974-d90a-4150-a248-926c5b99e53f)
+
+
+--->Sprint 2:
+
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/73f9af5a-2661-4d39-931d-0e01dd9d67eb)
+
+--->Sprint 3:
+
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/78eb078b-b24e-4876-ae96-c87c4b09b7db)
+
+--->Sprint 4: 
+
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/c555d722-18bd-435e-919f-e54df5f6b595)
+
+
+--->Sprint 5: 
+
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/1659b151-adf0-49ca-93d4-8aa65d2aa361)
+
+--->Sprint 6: 
+
+![image](https://github.com/hhaassnnaaee/site_robotic/assets/119757481/71ca3fd5-15eb-4e6a-9054-b3148c1fa07c)
 
 
 ###  <a href="#" style="color: blue;">**II.	Réalisation de l’application web : **</a>
